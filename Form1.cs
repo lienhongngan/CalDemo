@@ -18,7 +18,11 @@ namespace CalDemo
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            label1.Text = "dsafdsf";
+            if (textBox1.Text != "")
+            {
+                int a = int.Parse(textBox1.Text);
+                int b = int.Parse(textBox2.Text);
+            }
         }
     }
 }
