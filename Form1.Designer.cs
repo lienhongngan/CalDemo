@@ -30,10 +30,13 @@
         {
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+
             this.SuspendLayout();
             // 
             // listBox1
@@ -48,13 +51,14 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(179, 182);
+            this.linkLabel1.Location = new System.Drawing.Point(174, 203);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(72, 17);
             this.linkLabel1.TabIndex = 1;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "linkLabel1";
             // 
+
             // label1
             // 
             this.label1.AutoSize = true;
@@ -90,16 +94,27 @@
             this.button2.TabIndex = 5;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
+
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(61, 160);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(268, 22);
+            this.textBox1.TabIndex = 2;
+
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(389, 255);
+
             this.Controls.Add(this.button2);
             this.Controls.Add(this.listBox2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox1);
+
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.listBox1);
             this.Name = "Form1";
@@ -114,10 +129,14 @@
 
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.LinkLabel linkLabel1;
+
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.Button button2;
+
+        private System.Windows.Forms.TextBox textBox1;
+
     }
 }
 
